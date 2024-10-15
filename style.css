@@ -1,0 +1,128 @@
+/* Envelope (Pre inicio) */
+.envelope {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+
+.envelope__icon {
+    display: inline-block;
+    position: relative;
+}
+
+.envelope__line {
+    width: 100px;
+    height: 2px;
+    background-color: hotpink;
+    margin: 0 auto;
+}
+
+.envelope__circle {
+    width: 15px;
+    height: 15px;
+    background-color: hotpink;
+    border-radius: 50%;
+    position: absolute;
+    top: -7px;
+    left: calc(50% - 7.5px);
+}
+
+/* Inicio */
+.inicio {
+    background-color: #ffe6f7;
+    padding: 40px;
+    text-align: center;
+}
+
+.inicio__title {
+    font-family: 'Cursive', sans-serif;
+    font-size: 2em;
+    color: #d63384;
+}
+
+.inicio__options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.option {
+    width: 200px;
+}
+
+.option__image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.option__title {
+    font-family: 'Cursive', sans-serif;
+    font-size: 1.5em;
+    color: #d63384;
+    margin-top: 10px;
+}
+
+/* Servicio a Domicilio */
+.service {
+    background-color: #ccf2ff;
+    padding: 40px;
+}
+
+.service__title {
+    font-family: 'Cursive', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: #33b5e5;
+}
+
+.service__description {
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.service__images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.service__image {
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* Manualidades */
+.crafts {
+    background-color: #ffccff;
+    padding: 40px;
+}
+
+.crafts__title {
+    font-family: 'Cursive', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: #d63384;
+}
+
+.crafts__description {
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.crafts__images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.crafts__image {
+    width: 150px;
+    border-radius: 10px;
+}
